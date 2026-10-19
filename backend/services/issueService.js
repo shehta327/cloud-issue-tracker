@@ -1,4 +1,4 @@
-const fs = reauire('fs/promises');
+const fs = require('fs/promises');
 const path = require('path');
 const { randomUUID } = require('crypto');
 const DATA_FILE = path.join(__dirname, '../data/issues.json');
